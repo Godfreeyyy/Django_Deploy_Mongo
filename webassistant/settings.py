@@ -28,8 +28,6 @@ mongoengine.connect(
     host='cluster0.ixrihiz.mongodb.net',
     username='nqhuy0099',
     password='huy020100',
-    authentication_source='admin',  # Replace with the appropriate authentication source
-    authentication_mechanism='SCRAM-SHA-1',  # Replace with the appropriate authentication mechanism
 )
 
 # Quick-start development settings - unsuitable for production
@@ -109,10 +107,8 @@ DATABASES = {
         'default': {
             'ENGINE': 'djongo',
             'NAME': 'chat_bot',
-            'ENFORCE_SCHEMA': False,
             'CLIENT': {
-                'host': 'mongodb+srv://nqhuy0099:huy020100@cluster0.ixrihiz.mongodb.net/?retryWrites=true&w=majority',
-               'authMechanism': 'SCRAM-SHA-1',
+                'host': 'mongodb+srv://nqhuy0099:huy020100@cluster0.ixrihiz.mongodb.net/?retryWrites=true&w=majority'
             }  
         }
 }
