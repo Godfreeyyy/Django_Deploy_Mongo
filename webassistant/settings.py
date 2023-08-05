@@ -15,6 +15,11 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR =  os.path.join('../',Path(__file__).resolve().parent.parent)
 
+
+print(BASE_DIR)
+
+print('dcmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm')
+
 import mongoengine
 # mongoengine.connect(db=chat_bot, host=cluster0.ixrihiz.mongodb.net, username=nqhuy0099, password=huy020100)
 
